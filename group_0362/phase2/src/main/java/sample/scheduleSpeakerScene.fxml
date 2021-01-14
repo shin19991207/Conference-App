@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.sample.ScheduleSpeakerSceneController">
+   <children>
+      <Text layoutX="176.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Schedule a Speaker">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <TextField fx:id="speakerNameField" layoutX="226.0" layoutY="124.0" promptText="Speaker Username" />
+      <TextField fx:id="eventUUID" layoutX="226.0" layoutY="188.0" promptText="Event UUID" />
+      <Text fx:id="errorText" layoutX="155.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="289.7373046875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="actionButton" layoutX="268.0" layoutY="238.0" mnemonicParsing="false" onAction="#actionButtonPressed" text="Schedule" />
+   </children>
+</AnchorPane>

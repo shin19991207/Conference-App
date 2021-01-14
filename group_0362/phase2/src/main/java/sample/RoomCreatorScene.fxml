@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.sample.RoomCreatorSceneController">
+   <children>
+      <TextField fx:id="startTimePrompt" layoutX="238.0" layoutY="120.0" promptText="Starting Hour (hh)" />
+      <Text layoutX="237.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create a Room" textAlignment="CENTER">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="durationPrompt" layoutX="238.0" layoutY="153.0" promptText="Closing Hour (hh)" />
+      <Text layoutX="198.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Start">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="201.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="End">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="eventTitlePrompt" layoutX="238.0" layoutY="188.0" promptText="Title" />
+      <Text layoutX="199.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="capacityPrompt" layoutX="238.0" layoutY="222.0" promptText="Capacity" />
+      <Text layoutX="174.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Capacity">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="errorText" layoutX="162.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="275.705078125">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="createButton" layoutX="274.0" layoutY="323.0" mnemonicParsing="false" onAction="#createButtonPressed" text="Create" />
+      <TextField fx:id="startingMinutePrompt" layoutX="398.0" layoutY="120.0" promptText="Starting Minute (mm)" />
+      <TextField fx:id="endingMinutePrompt" layoutX="398.0" layoutY="153.0" promptText="Closing Minute (mm)" />
+   </children>
+</AnchorPane>
