@@ -1,6 +1,0 @@
-List of Rooms in Building: 
-
-[room1] 
-
-ID: e869e9b4-1edd-4ce5-803d-a82ede40acf2 
-talk1 at room1 on 2021-01-15T00:00
