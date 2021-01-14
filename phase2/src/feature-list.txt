@@ -1,0 +1,24 @@
+#####################################################################################################################
+########## Phase 2 feature list
+
+==========Added front-end user features==============================================================================
+- Program has a User Interface for easy navigation in addition to the text UI version
+- Users can view and download the complete schedule
+- Added accessibility options for additional user requests
+	- The request status is visible to all Organizers and any addressed requests are reflected for everyone
+
+
+==========Added back-end user features===============================================================================
+- Organizers can create three types of events:
+	- no speaker events
+	- one-speaker events (talk)
+	- multi-speaker events (panel discussion)
+- Organizers can cancel events
+- Event duration is measured in minutes
+- Each event has an event capacity:
+	- Users cannot register for the event if the event is at capacity
+	- Organizers can change event capacity
+- Organizers can create attendee, speaker, admin, and other organizer accounts
+- New admin user role
+	- Admin can delete messages or events with no attendees
+

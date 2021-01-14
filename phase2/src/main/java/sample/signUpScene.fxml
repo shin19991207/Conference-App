@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.sample.signUpController">
+   <children>
+      <Text layoutX="159.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What would you like to do?" wrappingWidth="281.91015625">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <TextField fx:id="EventID" layoutX="225.0" layoutY="127.0" promptText="Enter Event ID" />
+      <Text fx:id="printSchedule" layoutX="14.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="585.13671875" />
+      <Text fx:id="errorMessageText" layoutX="193.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="213.0" />
+      <RadioButton fx:id="signUpButton" layoutX="64.0" layoutY="110.0" mnemonicParsing="false" onAction="#signUpSelected" text="Sign Up">
+         <toggleGroup>
+            <ToggleGroup fx:id="eventChoice" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="leaveEventButton" layoutX="64.0" layoutY="131.0" mnemonicParsing="false" onAction="#leaveEventSelected" text="Leave Event" toggleGroup="$eventChoice" />
+      <Button fx:id="actionButton" layoutX="257.0" layoutY="188.0" mnemonicParsing="false" onAction="#actionButtonPressed" text="Select Action" />
+   </children>
+</AnchorPane>

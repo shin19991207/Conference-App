@@ -1,0 +1,13 @@
+Factory method: I made a class called EventFactory, which contains the function getEvent which given the properties and type of event, returns a new instance of the 
+respective event. It is used inside EventManager when creating and storing a new event. The reason I used this design pattern here is because I wanted to offload this 
+task to a separate class which can be reused over and over and makes the code more clear and readable.
+
+Dependency injection: This design pattern is used heavily in the BuildingManager and Schedule2 class. Some of the methods inside these two classes have an 
+EventManager parameter. Instead of storing an EventManager object inside the class, it is passed as an argument, therefore reducing the dependency to EventManager and 
+making sure that both Schedule2 and BuildingManager are responsible to only 1 actor. Also, since not all methods inside Schedule2 and BuildingManager use 
+EventManager, we could not find another reason to store an instance of EventManger inside the class. Finally, there is always one instance of EventManager in the 
+entire program.
+
+Iterator: In the BuildingManager and Schedule2 classes, we use iterators to get through the complex hashmap of events and schedules. Instead of parsing through the 
+hashmap in each scenario, we use a built in iterator so that we could work through each hashmap much easier and in a very understandable way. This allows us to also 
+keep the hashmap storage method hidden so that anyone outside of the class doesn’t have to learn how they are stored.
