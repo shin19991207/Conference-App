@@ -96,14 +96,5 @@ CSC207 Fall 2020 group_0362
 * Qi Zheng
 
 ## Preview
-- Login Scene
 
-![ScreenShot](https://github.com/shin19991207/ConferenceApp/blob/main/images/loginUI.png)
-
-- Home Scence 
-
-![ScreenShot](https://github.com/shin19991207/ConferenceApp/blob/main/images/homeUI.png)
-
-- Schedule Scene
-
-![ScreenShot](https://github.com/shin19991207/ConferenceApp/blob/main/images/scheduleUI.png)
+![ScreenShot](https://github.com/shin19991207/ConferenceApp/blob/main/conference_app.mov
