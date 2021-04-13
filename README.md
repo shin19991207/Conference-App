@@ -97,4 +97,4 @@ CSC207 Fall 2020 group_0362
 
 ## Preview
 
-![ScreenShot](https://github.com/shin19991207/ConferenceApp/blob/main/conference_app.mov)
+https://youtu.be/LDJzo8ec5kI
