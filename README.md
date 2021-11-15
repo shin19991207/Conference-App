@@ -1,3 +1,5 @@
+This repo showcases my project for **CSC207 - Software Design** at the University of Toronto.
+
 # ConferenceApp
 - This is a group project for CSC207 Software Design course at the University of Toronto St. George.
 
